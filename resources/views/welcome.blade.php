@@ -12,7 +12,6 @@
 </head>
 <body>
     <div id="app">
-        <vue-chat-new-message :active-channel="activeChannel" :username="username"></vue-chat-new-message>
         <vue-chat :channels="{{ $channels }}"></vue-chat>
     </div>
 
